@@ -13,12 +13,11 @@ def crew
 end
 
 def greet_crew(crew)
-  temp_crew = crew
-  temp_crew.each do |crew_member|
-
-    crew_member = "Hello #{crew_member}."
+  index = 0
+  while index < crew.size do
+    crew[index] = "Hello #{crew[index]}."
+    index += 1
   end
-  temp_crew
 end
 
 def engage
