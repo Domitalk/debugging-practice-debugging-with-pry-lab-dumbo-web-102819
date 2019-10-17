@@ -15,6 +15,7 @@ end
 def greet_crew(crew)
   temp_crew = crew
   temp_crew.each do |crew_member|
+    binding.pry
     crew_member = "Hello #{crew_member}."
   end
   temp_crew
