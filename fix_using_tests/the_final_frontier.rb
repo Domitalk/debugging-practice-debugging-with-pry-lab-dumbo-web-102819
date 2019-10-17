@@ -13,10 +13,11 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each do |crew_member|
+  temp_crew = crew
+  temp_crew.each do |crew_member|
     crew_member = "Hello #{crew_member}."
   end
-  crew
+  temp_crew
 end
 
 def engage
