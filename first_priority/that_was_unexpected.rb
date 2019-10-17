@@ -1,4 +1,4 @@
-require_all 'first_priority'
+
 
 class Person
   attr_accessor :name, :candy_lover
