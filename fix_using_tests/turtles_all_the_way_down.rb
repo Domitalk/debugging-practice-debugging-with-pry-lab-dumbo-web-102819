@@ -10,7 +10,11 @@ end
 
 def turtle_traits(turtles)
   new_array = Array.new
-  turtles.each do |index|
-    new_array << index[:traits]
+  turtles.each do |turtle|
+    turtle.each do |key, value|
+      if key == traits:
+        new_array << value
+      end
+    end
   end
 end
