@@ -12,8 +12,7 @@ def turtle_traits(turtles)
   new_array = []
   index = 0
   while index < turtles.size do
-    sub_array = turtles[index][:traits]
-    new_array << sub_array
+    new_array << turtles[index][:traits]
     index += 1
   end
   new_array
