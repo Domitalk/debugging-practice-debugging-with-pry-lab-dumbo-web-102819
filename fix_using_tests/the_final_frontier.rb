@@ -13,8 +13,10 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each {|crew_member| crew_member = "Hello #{crew_member}."}
-  crew
+  allofthem = crew
+  allofthem.each do |index|
+    allofthem[index] = "Hello #{allofthem[index]}."
+  end
 end
 
 def engage
