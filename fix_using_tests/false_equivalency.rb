@@ -1,7 +1,12 @@
 
 
 def get_user_input
-  var = gets.chomp
+  var_input = gets.chomp
+  if var_input == 1 || var_input == 2
+    return var_input
+  else
+    runner
+  end
 end
 
 def prompt_user
