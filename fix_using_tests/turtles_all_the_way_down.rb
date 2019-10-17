@@ -12,7 +12,7 @@ def turtle_traits(turtles)
   new_array = Array.new
   turtles.each do |turtle|
     turtle.each do |key, value|
-      if key == traits:
+      if key == :traits
         new_array << value
       end
     end
