@@ -2,7 +2,7 @@
 def turtles
     [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
-      {name: "Michaelangelo", weapon: "nunchuks", traits: "party dude"},
+      {name: "Michaelangelo", weapon: "nunchuks", traits: ["party dude"]},
       {name: "Raphael", weapon: "sais", traits: ["cool", "rude"]},
       {name: "Leonardo", weapon: "katanas", traits: ["loves being a turtle"]}
     ]
@@ -12,7 +12,6 @@ def turtle_traits(turtles)
   new_array = []
   index = 0
   while index < turtles.size do
-    sub_array = []
     sub_array = turtles[index][:traits]
     new_array << sub_array
     index += 1
