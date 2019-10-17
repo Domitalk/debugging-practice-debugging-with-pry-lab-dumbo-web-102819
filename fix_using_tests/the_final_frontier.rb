@@ -13,14 +13,15 @@ def crew
 end
 
 def greet_crew(crew)
-  allofthem = crew
-  allofthem.each do |index|
-    allofthem[index] = "Hello #{allofthem[index]}."
+  crew.each do |crew_member|
+    crew_member = "Hello #{crew_member}."
   end
 end
 
 def engage
+
   date = generate_star_date
   state_log(date)
   greet_crew(crew)
+
 end
