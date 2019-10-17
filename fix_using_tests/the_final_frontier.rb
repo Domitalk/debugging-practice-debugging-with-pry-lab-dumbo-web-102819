@@ -8,8 +8,9 @@ def state_log(star_date)
   "Captain's Log, star date #{star_date}."
 end
 
-crew = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
-
+def crew
+  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+end
 
 def greet_crew(crew)
   crew.each {|crew_member| crew_member = "Hello #{crew_member}."}
