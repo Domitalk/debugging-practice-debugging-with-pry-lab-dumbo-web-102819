@@ -1,4 +1,6 @@
 require_relative '../first_priority/you_called'
+require 'pry'
+
 class Person
 
   attr_accessor :name, :candy_lover
