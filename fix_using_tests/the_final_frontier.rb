@@ -18,6 +18,7 @@ def greet_crew(crew)
     crew[index] = "Hello #{crew[index]}."
     index += 1
   end
+  crew
 end
 
 def engage
