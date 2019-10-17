@@ -1,4 +1,4 @@
-require 'pry'
+
 def generate_star_date
   (rand(100000) + 400000) / 10.0
 end
@@ -15,7 +15,7 @@ end
 def greet_crew(crew)
   temp_crew = crew
   temp_crew.each do |crew_member|
-    binding.pry
+
     crew_member = "Hello #{crew_member}."
   end
   temp_crew
